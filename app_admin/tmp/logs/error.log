@@ -1,0 +1,837 @@
+2014-07-28 06:35:02 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Core\App.php(367): CakePlugin::path('DebugKit')
+#1 E:\Study\cakephp24\lib\Cake\Core\App.php(228): App::pluginPath('DebugKit')
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(183): Controller->constructClasses()
+#9 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 E:\Study\cakephp24\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-07-28 06:36:25 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Core\App.php(367): CakePlugin::path('DebugKit')
+#1 E:\Study\cakephp24\lib\Cake\Core\App.php(228): App::pluginPath('DebugKit')
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(183): Controller->constructClasses()
+#9 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 E:\Study\cakephp24\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-07-28 06:36:26 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Core\App.php(367): CakePlugin::path('DebugKit')
+#1 E:\Study\cakephp24\lib\Cake\Core\App.php(228): App::pluginPath('DebugKit')
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(183): Controller->constructClasses()
+#9 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 E:\Study\cakephp24\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-07-28 06:38:31 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Core\App.php(367): CakePlugin::path('DebugKit')
+#1 E:\Study\cakephp24\lib\Cake\Core\App.php(228): App::pluginPath('DebugKit')
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(183): Controller->constructClasses()
+#9 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 E:\Study\cakephp24\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-07-28 06:38:45 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Core\App.php(367): CakePlugin::path('DebugKit')
+#1 E:\Study\cakephp24\lib\Cake\Core\App.php(228): App::pluginPath('DebugKit')
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(183): Controller->constructClasses()
+#9 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 E:\Study\cakephp24\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-07-28 06:38:58 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Core\App.php(367): CakePlugin::path('DebugKit')
+#1 E:\Study\cakephp24\lib\Cake\Core\App.php(228): App::pluginPath('DebugKit')
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(183): Controller->constructClasses()
+#9 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 E:\Study\cakephp24\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-07-28 06:38:59 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Core\App.php(367): CakePlugin::path('DebugKit')
+#1 E:\Study\cakephp24\lib\Cake\Core\App.php(228): App::pluginPath('DebugKit')
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(183): Controller->constructClasses()
+#9 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 E:\Study\cakephp24\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-07-28 06:38:59 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Core\App.php(367): CakePlugin::path('DebugKit')
+#1 E:\Study\cakephp24\lib\Cake\Core\App.php(228): App::pluginPath('DebugKit')
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(183): Controller->constructClasses()
+#9 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 E:\Study\cakephp24\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-07-28 06:38:59 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Core\App.php(367): CakePlugin::path('DebugKit')
+#1 E:\Study\cakephp24\lib\Cake\Core\App.php(228): App::pluginPath('DebugKit')
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(183): Controller->constructClasses()
+#9 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 E:\Study\cakephp24\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-07-28 06:39:00 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Core\App.php(367): CakePlugin::path('DebugKit')
+#1 E:\Study\cakephp24\lib\Cake\Core\App.php(228): App::pluginPath('DebugKit')
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(183): Controller->constructClasses()
+#9 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 E:\Study\cakephp24\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-07-28 06:39:00 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Core\App.php(367): CakePlugin::path('DebugKit')
+#1 E:\Study\cakephp24\lib\Cake\Core\App.php(228): App::pluginPath('DebugKit')
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(183): Controller->constructClasses()
+#9 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 E:\Study\cakephp24\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-07-28 06:40:56 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Core\App.php(367): CakePlugin::path('DebugKit')
+#1 E:\Study\cakephp24\lib\Cake\Core\App.php(228): App::pluginPath('DebugKit')
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#3 [internal function]: App::load('ToolbarComponen...')
+#4 [internal function]: spl_autoload_call('ToolbarComponen...')
+#5 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#6 E:\Study\cakephp24\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#7 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PagesController))
+#8 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(183): Controller->constructClasses()
+#9 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 E:\Study\cakephp24\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-07-28 06:41:51 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin
+Stack Trace:
+#0 E:\Study\cakephp24\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-28 06:46:42 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\webroot\admin\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-28 06:51:53 Error: Fatal Error (4): syntax error, unexpected '}' in [E:\Study\cakephp24\app_admin\Controller\UsersController.php, line 33]
+2014-07-28 06:51:53 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\Study\cakeph...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\Study\cakeph...', 33, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\Study\cakeph...', 33, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 06:52:04 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Model\Model.php(3310): Model->setSource('users')
+#1 E:\Study\cakephp24\lib\Cake\Model\Model.php(1318): Model->getDataSource()
+#2 E:\Study\cakephp24\lib\Cake\View\Helper\FormHelper.php(199): Model->schema()
+#3 E:\Study\cakephp24\lib\Cake\View\Helper\FormHelper.php(451): FormHelper->_introspectModel('User', 'fields')
+#4 E:\Study\cakephp24\app_admin\View\Users\login.ctp(1): FormHelper->create('User', Array)
+#5 E:\Study\cakephp24\lib\Cake\View\View.php(929): include('E:\Study\cakeph...')
+#6 E:\Study\cakephp24\lib\Cake\View\View.php(891): View->_evaluate('E:\Study\cakeph...', Array)
+#7 E:\Study\cakephp24\lib\Cake\View\View.php(462): View->_render('E:\Study\cakeph...')
+#8 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#9 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#10 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 E:\Study\cakephp24\webroot\admin\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-28 06:53:48 Error: Fatal Error (4): syntax error, unexpected ';' in [E:\Study\cakephp24\app_admin\Config\bootstrap.php, line 58]
+2014-07-28 06:53:48 Error: [FatalErrorException] syntax error, unexpected ';'
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\Study\cakeph...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\Study\cakeph...', 58, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\Study\cakeph...', 58, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 06:54:10 Error: Fatal Error (1): Class 'AppModel' not found in [E:\Study\cakephp24\lib\Cake\Utility\ClassRegistry.php, line 185]
+2014-07-28 06:54:10 Error: [FatalErrorException] Class 'AppModel' not found
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 06:54:44 Error: Fatal Error (1): Class 'AppModel' not found in [E:\Study\cakephp24\lib\Cake\Utility\ClassRegistry.php, line 185]
+2014-07-28 06:54:44 Error: [FatalErrorException] Class 'AppModel' not found
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 06:56:04 Error: Fatal Error (1): Class 'AppModel' not found in [E:\Study\cakephp24\lib\Cake\Utility\ClassRegistry.php, line 185]
+2014-07-28 06:56:04 Error: [FatalErrorException] Class 'AppModel' not found
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 06:56:29 Error: Fatal Error (1): Class 'AppModel' not found in [E:\Study\cakephp24\lib\Cake\Utility\ClassRegistry.php, line 185]
+2014-07-28 06:56:29 Error: [FatalErrorException] Class 'AppModel' not found
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 06:57:13 Error: Fatal Error (1): Class 'AppModel' not found in [E:\Study\cakephp24\lib\Cake\Utility\ClassRegistry.php, line 185]
+2014-07-28 06:57:13 Error: [FatalErrorException] Class 'AppModel' not found
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 07:00:42 Error: Fatal Error (1): Class 'AppModel' not found in [E:\Study\cakephp24\lib\Cake\Utility\ClassRegistry.php, line 185]
+2014-07-28 07:00:42 Error: [FatalErrorException] Class 'AppModel' not found
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 08:22:42 Error: Fatal Error (1): Class 'AppModel' not found in [E:\Study\cakephp24\lib\Cake\Utility\ClassRegistry.php, line 185]
+2014-07-28 08:22:42 Error: [FatalErrorException] Class 'AppModel' not found
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 08:23:32 Error: Fatal Error (1): Class 'AppModel' not found in [E:\Study\cakephp24\lib\Cake\Utility\ClassRegistry.php, line 185]
+2014-07-28 08:23:32 Error: [FatalErrorException] Class 'AppModel' not found
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 08:24:36 Error: Fatal Error (1): Class 'AppModel' not found in [E:\Study\cakephp24\lib\Cake\Utility\ClassRegistry.php, line 185]
+2014-07-28 08:24:36 Error: [FatalErrorException] Class 'AppModel' not found
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 08:24:56 Error: Fatal Error (1): Class 'AppModel' not found in [E:\Study\cakephp24\lib\Cake\Utility\ClassRegistry.php, line 185]
+2014-07-28 08:24:56 Error: [FatalErrorException] Class 'AppModel' not found
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', 'E:\Study\cakeph...', 185, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 08:29:32 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Model\Model.php(3310): Model->setSource('users')
+#1 E:\Study\cakephp24\lib\Cake\Model\Model.php(1318): Model->getDataSource()
+#2 E:\Study\cakephp24\lib\Cake\View\Helper\FormHelper.php(199): Model->schema()
+#3 E:\Study\cakephp24\lib\Cake\View\Helper\FormHelper.php(451): FormHelper->_introspectModel('User', 'fields')
+#4 E:\Study\cakephp24\app_admin\View\Users\login.ctp(1): FormHelper->create('User', Array)
+#5 E:\Study\cakephp24\lib\Cake\View\View.php(929): include('E:\Study\cakeph...')
+#6 E:\Study\cakephp24\lib\Cake\View\View.php(891): View->_evaluate('E:\Study\cakeph...', Array)
+#7 E:\Study\cakephp24\lib\Cake\View\View.php(462): View->_render('E:\Study\cakeph...')
+#8 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#9 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#10 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 E:\Study\cakephp24\webroot\admin\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-28 08:34:26 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [E:\Study\cakephp24\app_admin\Controller\UsersController.php, line 22]
+2014-07-28 08:34:26 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\Study\cakeph...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\Study\cakeph...', 22, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\Study\cakeph...', 22, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 08:39:08 Error: [MissingHelperException] Helper class flashHelper could not be found.
+Exception Attributes: array (
+  'class' => 'flashHelper',
+  'plugin' => false,
+)
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('flash')
+#1 E:\Study\cakephp24\lib\Cake\View\View.php(818): HelperCollection->__isset('flash')
+#2 E:\Study\cakephp24\app_admin\View\Users\login.ctp(1): View->__get('flash')
+#3 E:\Study\cakephp24\lib\Cake\View\View.php(929): include('E:\Study\cakeph...')
+#4 E:\Study\cakephp24\lib\Cake\View\View.php(891): View->_evaluate('E:\Study\cakeph...', Array)
+#5 E:\Study\cakephp24\lib\Cake\View\View.php(462): View->_render('E:\Study\cakeph...')
+#6 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#7 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#8 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 E:\Study\cakephp24\webroot\admin\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-28 08:44:02 Error: [MissingHelperException] Helper class sqlstateHelper could not be found.
+Exception Attributes: array (
+  'class' => 'sqlstateHelper',
+  'plugin' => false,
+)
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('sqlstate')
+#1 E:\Study\cakephp24\lib\Cake\View\View.php(818): HelperCollection->__isset('sqlstate')
+#2 E:\Study\cakephp24\app_admin\View\Users\login.ctp(6): View->__get('sqlstate')
+#3 E:\Study\cakephp24\lib\Cake\View\View.php(929): include('E:\Study\cakeph...')
+#4 E:\Study\cakephp24\lib\Cake\View\View.php(891): View->_evaluate('E:\Study\cakeph...', Array)
+#5 E:\Study\cakephp24\lib\Cake\View\View.php(462): View->_render('E:\Study\cakeph...')
+#6 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#7 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#8 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 E:\Study\cakephp24\webroot\admin\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-28 08:52:12 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'validate' at line 1
+Request URL: /admin/users/add
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('validate', Array)
+#2 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('validate', Array, Array)
+#3 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(611): DboSource->fetchAll('validate', Array, Array)
+#4 E:\Study\cakephp24\lib\Cake\Model\Model.php(799): DboSource->query('validate', Array, Object(User))
+#5 E:\Study\cakephp24\app_admin\Controller\UsersController.php(34): Model->__call('validate', Array)
+#6 E:\Study\cakephp24\app_admin\Controller\UsersController.php(34): User->validate()
+#7 [internal function]: UsersController->add()
+#8 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 E:\Study\cakephp24\webroot\admin\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-28 09:09:28 Error: Fatal Error (1): Class 'SimplePasswordHasher' not found in [E:\Study\cakephp24\app_admin\Model\User.php, line 7]
+2014-07-28 09:09:28 Error: [FatalErrorException] Class 'SimplePasswordHasher' not found
+Request URL: /admin/users/add
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'SimplePa...', 'E:\Study\cakeph...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'SimplePa...', 'E:\Study\cakeph...', 7, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'SimplePa...', 'E:\Study\cakeph...', 7, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 09:12:46 Error: [MissingActionException] Action usersController::a() could not be found.
+Exception Attributes: array (
+  'controller' => 'usersController',
+  'action' => 'a',
+)
+Request URL: /admin/users/a
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\Study\cakephp24\webroot\admin\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-28 09:18:23 Error: [UnauthorizedException] Unauthorized
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Controller\Component\AuthComponent.php(345): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 E:\Study\cakephp24\lib\Cake\Controller\Component\AuthComponent.php(304): AuthComponent->_unauthenticated(Object(UsersController))
+#2 [internal function]: AuthComponent->startup(Object(UsersController))
+#3 E:\Study\cakephp24\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 E:\Study\cakephp24\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#6 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#7 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(184): Controller->startupProcess()
+#8 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 E:\Study\cakephp24\webroot\admin\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-28 09:18:29 Error: [UnauthorizedException] Unauthorized
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Controller\Component\AuthComponent.php(345): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 E:\Study\cakephp24\lib\Cake\Controller\Component\AuthComponent.php(304): AuthComponent->_unauthenticated(Object(UsersController))
+#2 [internal function]: AuthComponent->startup(Object(UsersController))
+#3 E:\Study\cakephp24\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 E:\Study\cakephp24\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#6 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#7 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(184): Controller->startupProcess()
+#8 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 E:\Study\cakephp24\webroot\admin\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-28 09:18:42 Error: [UnauthorizedException] Unauthorized
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Controller\Component\AuthComponent.php(345): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 E:\Study\cakephp24\lib\Cake\Controller\Component\AuthComponent.php(304): AuthComponent->_unauthenticated(Object(UsersController))
+#2 [internal function]: AuthComponent->startup(Object(UsersController))
+#3 E:\Study\cakephp24\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 E:\Study\cakephp24\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#6 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#7 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(184): Controller->startupProcess()
+#8 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 E:\Study\cakephp24\webroot\admin\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-28 09:18:55 Error: [UnauthorizedException] Unauthorized
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Controller\Component\AuthComponent.php(345): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 E:\Study\cakephp24\lib\Cake\Controller\Component\AuthComponent.php(304): AuthComponent->_unauthenticated(Object(UsersController))
+#2 [internal function]: AuthComponent->startup(Object(UsersController))
+#3 E:\Study\cakephp24\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 E:\Study\cakephp24\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#6 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#7 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(184): Controller->startupProcess()
+#8 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 E:\Study\cakephp24\webroot\admin\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-28 09:19:06 Error: [UnauthorizedException] Unauthorized
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Controller\Component\AuthComponent.php(345): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 E:\Study\cakephp24\lib\Cake\Controller\Component\AuthComponent.php(304): AuthComponent->_unauthenticated(Object(UsersController))
+#2 [internal function]: AuthComponent->startup(Object(UsersController))
+#3 E:\Study\cakephp24\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 E:\Study\cakephp24\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#6 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#7 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(184): Controller->startupProcess()
+#8 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 E:\Study\cakephp24\webroot\admin\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-28 09:19:16 Error: [UnauthorizedException] Unauthorized
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Controller\Component\AuthComponent.php(345): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 E:\Study\cakephp24\lib\Cake\Controller\Component\AuthComponent.php(304): AuthComponent->_unauthenticated(Object(UsersController))
+#2 [internal function]: AuthComponent->startup(Object(UsersController))
+#3 E:\Study\cakephp24\lib\Cake\Utility\ObjectCollection.php(132): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 E:\Study\cakephp24\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#6 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#7 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(184): Controller->startupProcess()
+#8 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 E:\Study\cakephp24\webroot\admin\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-28 10:43:04 Error: [MissingHelperException] Helper class HiddenHelper could not be found.
+Exception Attributes: array (
+  'class' => 'HiddenHelper',
+  'plugin' => false,
+)
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\View\View.php(867): HelperCollection->load('Hidden', Array)
+#1 E:\Study\cakephp24\lib\Cake\View\View.php(343): View->loadHelpers()
+#2 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(1240): View->__construct(Object(UsersController))
+#3 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(938): Controller->_getViewObject()
+#4 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#5 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#6 E:\Study\cakephp24\webroot\admin\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-07-28 10:43:17 Error: [MissingPluginException] Plugin TwitterBootstrap could not be found.
+Exception Attributes: array (
+  'plugin' => 'TwitterBootstrap',
+)
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Core\App.php(367): CakePlugin::path('TwitterBootstra...')
+#1 E:\Study\cakephp24\lib\Cake\Core\App.php(228): App::pluginPath('TwitterBootstra...')
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(549): App::path('View/Helper', 'TwitterBootstra...')
+#3 [internal function]: App::load('BootstrapFormHe...')
+#4 [internal function]: spl_autoload_call('BootstrapFormHe...')
+#5 E:\Study\cakephp24\lib\Cake\View\HelperCollection.php(130): class_exists('BootstrapFormHe...')
+#6 E:\Study\cakephp24\lib\Cake\View\View.php(867): HelperCollection->load('Form', Array)
+#7 E:\Study\cakephp24\lib\Cake\View\View.php(343): View->loadHelpers()
+#8 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(1240): View->__construct(Object(UsersController))
+#9 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(938): Controller->_getViewObject()
+#10 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#11 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#12 E:\Study\cakephp24\webroot\admin\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-28 10:53:01 Error: Fatal Error (4): syntax error, unexpected '$' in [E:\Study\cakephp24\app_admin\Controller\UsersController.php, line 24]
+2014-07-28 10:53:01 Error: [FatalErrorException] syntax error, unexpected '$'
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\Study\cakeph...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\Study\cakeph...', 24, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\Study\cakeph...', 24, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 10:53:10 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [E:\Study\cakephp24\app_admin\Controller\UsersController.php, line 32]
+2014-07-28 10:53:10 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\Study\cakeph...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\Study\cakeph...', 32, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\Study\cakeph...', 32, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 10:53:28 Error: Fatal Error (1): Class 'SimplePasswordHasher' not found in [E:\Study\cakephp24\app_admin\Controller\UsersController.php, line 18]
+2014-07-28 10:53:28 Error: [FatalErrorException] Class 'SimplePasswordHasher' not found
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'SimplePa...', 'E:\Study\cakeph...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'SimplePa...', 'E:\Study\cakeph...', 18, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'SimplePa...', 'E:\Study\cakeph...', 18, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 10:53:53 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.test' doesn't exist
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('select * from t...', Array)
+#2 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('select * from t...', Array, Array)
+#3 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(539): DboSource->fetchAll('select * from t...')
+#4 [internal function]: DboSource->query('select * from t...')
+#5 E:\Study\cakephp24\lib\Cake\Model\Model.php(3128): call_user_func_array(Array, Array)
+#6 E:\Study\cakephp24\app_admin\Controller\UsersController.php(22): Model->query('select * from t...')
+#7 [internal function]: UsersController->login()
+#8 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 E:\Study\cakephp24\webroot\admin\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-28 10:54:15 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'daihan87' in 'where clause'
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('select * from u...', Array)
+#2 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('select * from u...', Array, Array)
+#3 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(539): DboSource->fetchAll('select * from u...')
+#4 [internal function]: DboSource->query('select * from u...')
+#5 E:\Study\cakephp24\lib\Cake\Model\Model.php(3128): call_user_func_array(Array, Array)
+#6 E:\Study\cakephp24\app_admin\Controller\UsersController.php(22): Model->query('select * from u...')
+#7 [internal function]: UsersController->login()
+#8 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 E:\Study\cakephp24\webroot\admin\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-28 10:55:23 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'daihan87' in 'where clause'
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('select * from u...', Array)
+#2 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('select * from u...', Array, Array)
+#3 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(539): DboSource->fetchAll('select * from u...')
+#4 [internal function]: DboSource->query('select * from u...')
+#5 E:\Study\cakephp24\lib\Cake\Model\Model.php(3128): call_user_func_array(Array, Array)
+#6 E:\Study\cakephp24\app_admin\Controller\UsersController.php(22): Model->query('select * from u...')
+#7 [internal function]: UsersController->login()
+#8 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 E:\Study\cakephp24\webroot\admin\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-28 10:56:41 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'daihan' in 'where clause'
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('select * from u...', Array)
+#2 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('select * from u...', Array, Array)
+#3 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(539): DboSource->fetchAll('select * from u...')
+#4 [internal function]: DboSource->query('select * from u...')
+#5 E:\Study\cakephp24\lib\Cake\Model\Model.php(3128): call_user_func_array(Array, Array)
+#6 E:\Study\cakephp24\app_admin\Controller\UsersController.php(22): Model->query('select * from u...')
+#7 [internal function]: UsersController->login()
+#8 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 E:\Study\cakephp24\webroot\admin\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-28 10:59:18 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'daihan' in 'where clause'
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('select * from `...', Array)
+#2 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('select * from `...', Array, Array)
+#3 E:\Study\cakephp24\lib\Cake\Model\Datasource\DboSource.php(539): DboSource->fetchAll('select * from `...')
+#4 [internal function]: DboSource->query('select * from `...')
+#5 E:\Study\cakephp24\lib\Cake\Model\Model.php(3128): call_user_func_array(Array, Array)
+#6 E:\Study\cakephp24\app_admin\Controller\UsersController.php(22): Model->query('select * from `...')
+#7 [internal function]: UsersController->login()
+#8 E:\Study\cakephp24\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 E:\Study\cakephp24\webroot\admin\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-28 11:01:09 Error: [MissingActionException] Action usersController::lindex() could not be found.
+Exception Attributes: array (
+  'controller' => 'usersController',
+  'action' => 'lindex',
+)
+Request URL: /admin/users/lindex
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 E:\Study\cakephp24\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 E:\Study\cakephp24\webroot\admin\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-28 12:13:55 Error: Fatal Error (1): Call to a member function unauthenticated() on a non-object in [E:\Study\cakephp24\lib\Cake\Controller\Component\AuthComponent.php, line 345]
+2014-07-28 12:13:55 Error: [FatalErrorException] Call to a member function unauthenticated() on a non-object
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\Study\cakeph...', 345)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\Study\cakeph...', 345, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\Study\cakeph...', 345, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 12:13:55 Error: Fatal Error (1): Call to a member function unauthenticated() on a non-object in [E:\Study\cakephp24\lib\Cake\Controller\Component\AuthComponent.php, line 345]
+2014-07-28 12:13:55 Error: [FatalErrorException] Call to a member function unauthenticated() on a non-object
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\Study\cakeph...', 345)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\Study\cakeph...', 345, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\Study\cakeph...', 345, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 12:14:17 Error: Fatal Error (1): Call to a member function unauthenticated() on a non-object in [E:\Study\cakephp24\lib\Cake\Controller\Component\AuthComponent.php, line 345]
+2014-07-28 12:14:17 Error: [FatalErrorException] Call to a member function unauthenticated() on a non-object
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\Study\cakeph...', 345)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\Study\cakeph...', 345, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\Study\cakeph...', 345, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 12:14:21 Error: Fatal Error (1): Call to a member function unauthenticated() on a non-object in [E:\Study\cakephp24\lib\Cake\Controller\Component\AuthComponent.php, line 345]
+2014-07-28 12:14:21 Error: [FatalErrorException] Call to a member function unauthenticated() on a non-object
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\Study\cakeph...', 345)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\Study\cakeph...', 345, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\Study\cakeph...', 345, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 12:14:22 Error: Fatal Error (1): Call to a member function unauthenticated() on a non-object in [E:\Study\cakephp24\lib\Cake\Controller\Component\AuthComponent.php, line 345]
+2014-07-28 12:14:22 Error: [FatalErrorException] Call to a member function unauthenticated() on a non-object
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\Study\cakeph...', 345)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\Study\cakeph...', 345, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\Study\cakeph...', 345, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 12:14:22 Error: Fatal Error (1): Call to a member function unauthenticated() on a non-object in [E:\Study\cakephp24\lib\Cake\Controller\Component\AuthComponent.php, line 345]
+2014-07-28 12:14:22 Error: [FatalErrorException] Call to a member function unauthenticated() on a non-object
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\Study\cakeph...', 345)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\Study\cakeph...', 345, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\Study\cakeph...', 345, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 12:19:06 Error: Fatal Error (1): Call to a member function unauthenticated() on a non-object in [E:\Study\cakephp24\lib\Cake\Controller\Component\AuthComponent.php, line 345]
+2014-07-28 12:19:06 Error: [FatalErrorException] Call to a member function unauthenticated() on a non-object
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\Study\cakeph...', 345)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\Study\cakeph...', 345, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\Study\cakeph...', 345, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-28 12:19:15 Error: Fatal Error (1): Call to a member function unauthenticated() on a non-object in [E:\Study\cakephp24\lib\Cake\Controller\Component\AuthComponent.php, line 345]
+2014-07-28 12:19:15 Error: [FatalErrorException] Call to a member function unauthenticated() on a non-object
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\Study\cakeph...', 345)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\Study\cakeph...', 345, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\Study\cakeph...', 345, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-01 10:22:32 Error: [MissingControllerException] Controller class LogsController could not be found.
+Exception Attributes: array (
+  'class' => 'LogsController',
+  'plugin' => NULL,
+)
+Request URL: /admin/logs
+Stack Trace:
+#0 E:\Study\cakephp24\webroot\admin\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-01 11:38:01 Error: Fatal Error (4): syntax error, unexpected '=' in [E:\Study\cakephp24\app_admin\Controller\UsersController.php, line 49]
+2014-08-01 11:38:01 Error: [FatalErrorException] syntax error, unexpected '='
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\Study\cakeph...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\Study\cakeph...', 49, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\Study\cakeph...', 49, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 06:33:16 Error: Fatal Error (64): Cannot redeclare AppController::beforeFilter() in [E:\Study\cakephp24\app_admin\Controller\AppController.php, line 59]
+2014-10-03 06:33:16 Error: [FatalErrorException] Cannot redeclare AppController::beforeFilter()
+Request URL: /admin/users/login
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'E:\Study\cakeph...', 59)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'E:\Study\cakeph...', 59, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'E:\Study\cakeph...', 59, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-03 06:35:02 Error: Fatal Error (1): Class 'BlowfishPasswordHasher' not found in [E:\Study\cakephp24\app_admin\Model\User.php, line 9]
+2014-10-03 06:35:02 Error: [FatalErrorException] Class 'BlowfishPasswordHasher' not found
+Request URL: /admin/users/add
+Stack Trace:
+#0 E:\Study\cakephp24\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'Blowfish...', 'E:\Study\cakeph...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Blowfish...', 'E:\Study\cakeph...', 9, Array)
+#2 E:\Study\cakephp24\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'Blowfish...', 'E:\Study\cakeph...', 9, Array)
+#3 E:\Study\cakephp24\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
