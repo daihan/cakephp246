@@ -36,6 +36,9 @@ class AppController extends Controller {
         'DebugKit.Toolbar',
         'Session',
         'Auth' => array(
+            "loginAction" => array(
+                "controller" => "admins",
+                "action" => "login"),
             'loginRedirect' => array(
                 'controller' => 'pages',
                 'action' => 'display'
@@ -47,6 +50,7 @@ class AppController extends Controller {
             ),
             'authenticate' => array(
                 'Form' => array(
+                    "userModel" => "Admin",
                     'passwordHasher' => 'Blowfish'
                 )
             )
