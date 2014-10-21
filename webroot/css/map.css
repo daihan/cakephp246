@@ -1,0 +1,636 @@
+div#mapcontent{width:100%; height:720px; position:relative; top:10px;}
+div#map3d{width:100%; height:700px; position:absolute;}
+div#containerwrapper{width:100%; padding-left:20px; padding-right:20px;}
+
+#searchbutton{background: none repeat scroll 0 0 #EB4D30;
+    border: 1px solid #AAAAAA;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: right;
+    font-size: 1.2em;
+    margin-top: 5px;
+    padding: 4px;
+    text-decoration: none;}
+
+.floorPlacemark{
+	display: none;
+	background-color: white;
+	position: absolute;
+	padding:5px;
+	line-height: 15px;
+	color:#333333;
+	width:254px;
+	z-index: 10;
+	height: 605px;
+    right: 85px;
+    top: 30px;
+}
+
+.ffloorPlacemark{
+	display: none; 
+	position: absolute;
+	width: 260px;
+	z-index: 9;
+	height: 607px;
+    right: 85px;
+    top: 30px;	
+}
+	
+	
+/*
+.container{display: block;background-color: #EB4D30; position: absolute; left: 20px; top: 20px; width: 145px; height: 25px; z-index: 10; border:2px solid #cccccc; padding:5px; font-family: Arial,Helvetica,Verdana; font-size: 13px; line-height: 15px; color:#333333;}
+*/
+.container-inside{background-color: #EB4D30;
+   
+    height: 30px;
+    width: 200px;
+    top:0px;
+    position:absolute;
+    -moz-box-shadow: 3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;	
+	left:15px;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+    }
+    
+.container{color: #333333;
+    display: block;
+    font-family: Arial,Helvetica,Verdana;
+    font-size: 13px;
+    height: 30px;
+    left: 20px;
+    line-height: 15px;
+    position: absolute;
+    top: 20px;
+    width: 200px;
+    z-index: 10;}
+    
+.fcontainer{position: absolute; left: 40px; top: 20px; width: 180px; height: 30px; z-index: 9;}
+
+/*
+.containerbig{display: block; background-color: white; position: absolute; left: 20px; top: 20px; width: 300px; height: 310px; z-index: 10; border:2px solid #cccccc; font-family: Arial,Helvetica,Verdana; font-size: 13px; line-height: 15px; color:#333333;}
+*/
+.containerbig{color: #333333;
+    display: block;
+    font-family: Arial,Helvetica,Verdana;
+    font-size: 13px;
+    height: 355px;
+    left: 25px;
+    line-height: 15px;
+    padding: 5px;
+    position: absolute;
+    top: 20px;
+    width: 310px;
+    z-index: 10;}
+    
+.fcontainerbig{
+    height: 580px;
+    left: 30px;
+    position: absolute;
+    top: 20px;
+    width: 309px;
+    z-index: 9;}
+
+.containerbigres{color: #333333;
+    display: block;
+    font-family: Arial,Helvetica,Verdana;
+    font-size: 13px;
+    height: 640px;
+    left: 25px;
+    line-height: 15px;
+    padding: 5px;
+    position: absolute;
+    top: 20px;
+    width: 310px;
+    z-index: 10;}
+    
+.fcontainerbigres{
+    height: 580px;
+    left: 30px;
+    position: absolute;
+    top: 20px;
+    width: 310px;
+    z-index: 9;}
+
+.containersmall{border:2px red solid;
+		display: block;
+		background-color: white; 
+		position: absolute; 
+		width: 310px; 
+		height: 80px; 
+		z-index: 10; 
+		border:2px solid #cccccc; 
+		padding:5px; 
+		font-family: Arial,Helvetica,Verdana; 
+		font-size: 13px; 
+		line-height: 15px; 
+		color:#333333; 
+		overflow-x:hidden; 
+		overflow-y:auto;
+		-moz-box-shadow: 3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+.fcontainersmall{position: absolute; width: 315px; height: 80px; z-index: 9;}
+
+.containermedia{display: none;background-color: white; position: absolute; width: 310px; height: 230px; z-index: 10; border:2px solid #cccccc; padding:5px; font-family: Arial,Helvetica,Verdana; font-size: 13px; line-height: 15px; color:#333333; top:385px;right: 85px;
+-moz-box-shadow: 3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');}
+#fcontainermedia{display: none; position: absolute; width: 310px; height: 243px; z-index: 9; top:385px;right: 85px;}
+
+.containercontact{display: none; background-color: white; position: absolute; width: 350px; height: 420px; z-index: 10; border:2px solid #cccccc; padding:10px; font-family: Arial,Helvetica,Verdana; font-size: 16px; line-height: 15px; color:#333333;
+-moz-box-shadow: 3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');}
+.fcontainercontact{display: none; position: absolute; width: 375px; height: 400px; z-index: 9;}
+
+.containerflight{display: none; background-color: white; position: absolute; width: 350px; height: 300px; z-index: 10; border:2px solid #cccccc; padding:5px; font-family: Arial,Helvetica,Verdana; font-size: 16px; line-height: 15px; color:#333333;
+-moz-box-shadow: 3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');}
+.fcontainerflight{display: none; position: absolute; width: 364px; height: 364px; z-index: 9;}
+
+div.divider{width:100%; height:2px; border-bottom:1px solid #cccccc;}
+div#tab_set{
+        color: #333333;
+    cursor: pointer;
+    font-size: 14px;
+    height: 35px;
+    margin-top: 7px;
+    padding-left: 10px;
+    position: relative;
+    top: 21px;
+    width: 100%;}
+
+div#expand{cursor: pointer;
+    height: 22px;
+    padding-left: 30px;
+    position: absolute;
+    text-align: left;}
+
+div#collapse{cursor: pointer;
+    height: 30px;
+    padding-left: 21px;
+    padding-top: 6px;
+    position: absolute;
+    text-align: left;
+    top: 2px;
+    width: 200px;}
+
+div#tabset{width:103%;margin: 0 auto;overflow:hidden; cursor:pointer;}
+div.mapsearchon{
+    bottom: 0;
+    color: #222222;
+    float: left;
+    font-size: 1.2em;
+    left: 0;
+    list-style: none outside none;
+    margin: 0;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-top:10px;
+    height:26px;
+    position: relative;
+    text-align: left;
+    width: 60px;
+}
+div.mapsearchoff{
+color: #cccccc;     float: left;
+    font-size: 1.2em;
+    left: 0;
+    list-style: none outside none;
+    margin: 0;
+    padding-bottom: 5px;
+    padding-right: 6px;
+    position: relative;
+    text-align: left;
+    width: 45px;
+    cursor:pointer;
+}
+div.mapresultson{color: #EB4D30;   float: left;
+   float: left;
+    font-size: 1.2em;
+    height: 26px;
+    list-style: none outside none;
+    margin: 0;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    position: relative;
+    text-align: left;
+    width: 115px;
+
+}
+
+div.mapresultson:hover{
+	text-decoration:underline;
+}
+
+div.mapresultsoff{color: #cccccc;   float: left;
+    font-size: 1.2em;
+    list-style: none outside none;
+    margin: 0;
+    padding-bottom: 5px;
+    position: relative;
+    text-align: left;
+    width: 115px;
+    cursor:pointer;
+	}
+	div.zoomout{
+		cursor: pointer;
+		float: left;
+		padding-bottom: 5px;
+		padding-right: 2px;
+		position: relative;
+	   width: 30px;}
+	   
+	img.skyline{
+		top: -20px;}    
+    
+div.zoomoutsmall{
+	color: #222222;float: right;
+    font-size: 1em;
+    list-style: none outside none;
+    margin: 0;
+    padding-bottom: 5px;
+    position: relative;
+    text-align: left;
+    right:5px;
+    cursor:pointer;}
+
+.suite_tools{    float: left;
+    height: 28px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-top: 5px;
+    width: 100%;}
+ul.ul_suite_tools{list-style-type: none; padding-left:0px;margin:3px;}
+
+div.res_suite_number{border-bottom: 1px solid #000000;
+    cursor: pointer;
+    float: left;
+    height: 17px;}
+
+div.mapsearch{width:100%; align:left; padding-left:35px; height:30px; padding-top:10px}
+div.searchdd{float:left; width:220px; color:#333333;}
+div.searchddgroup{float:left; width:220px; color:#333333;}
+.mapsearchdd{width:220px; color:#333333; font-size:16px;}
+
+div.suitefloors{padding-left:3px;}
+
+/*
+.mapsearchdd{
+-webkit-appearance: button;
+  -webkit-border-radius: 2px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  -webkit-padding-end: 20px;
+  -webkit-padding-start: 2px;
+  -webkit-user-select: none;
+  background-image: url(../images/down_arrow_select.jpg), 
+    -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+  background-position: center right;
+  background-repeat: no-repeat;
+  border: 2px solid #DDD;
+  color: #555;
+  font-size: inherit;
+  margin: 0;
+  overflow: hidden;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width:220px;
+  }
+  */
+
+div.dateadded{ text-align: left; display: table;  padding-top: 12px;margin-top:-25px; }
+
+div#mapsearchdiv{    height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    top: 20px;
+	font-size: 15px;
+	width:300px;}
+    
+div#mapresultsdiv{    height: 515px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    top: 15px;
+	width:103%;}
+    
+div#pbar{float:left; width:32px; height:32px; padding-left:70px;margin-top:-35px;}
+div.res_building{
+	 border-bottom: 0px solid #CCCCCC;
+    color: #000000;
+    float: left;
+    height: auto;
+    padding: 0;
+    padding-top: 8px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    cursor:pointer;}
+	
+ div.res_buildingname{
+	/*border-bottom: 2px solid #CCCCCC;*/
+    color: #333333;
+    float: left;
+    height: 27px;
+    padding: 0;
+    padding-top: 13px;
+    text-align: left;
+    text-decoration: none;
+    width: 100%;
+    cursor:pointer;}   
+div.res_suite{width:100%; float:left; color:#000000;text-align:left; font-weight:400;padding-top:15px;}
+
+.s_small{width:275px; float:left; color:#000000;text-align:left; padding-left:10px; font-weight:400;padding-top:7px;margin-top: -18px;}
+
+/*div.res_suite_on{width:100%; float:left; color:#ffffff;text-align:left; padding-left:5px; font-weight:400;padding-top:15px; background:#999 url(../images/searchback.png) 50% 50% repeat; opacity:0.6;}
+*/
+div.res_suite_on{ background-color: #EEEEEE;
+	border:1px solid #000000;
+    color: #000000;
+    float: left; 
+    padding-top: 15px;
+    text-align:left;}
+    
+div.res_floor{width:275px; float:left; text-align:left; padding-left:0px; height:20px; font-weight:400;}
+div.suite_divider{width:275px; float:left; height:5px; height:2px; padding-bottom:5px;}
+
+.suite_media{width:30px; float:right;}
+.res_suite_media{float:right;padding-right:5px;cursor:pointer;}
+.suite_info_right{float:right; width:45%;padding-right:2px;}
+.suite_info_left{float:left; width:45%;padding-right:15px;}
+.res_suite_header{width:105%;height:15px;padding-right:10px; font-size: 14px;}
+.contact{float: right;
+    padding-right: 5px;cursor:pointer;}
+.addsuite{float: right;
+    padding-right: 5px;cursor:pointer;}
+.addflight{float: right;
+    padding-right: 5px;cursor:pointer;}
+
+
+div#suitemedia{padding-right:10px; padding-left:10px; hight:150px;white-space:nowrap;width:-moz-min-content;}
+span.mediaspan{padding:3px;}
+div.closeme{float: right;padding-right: 10px; text-align: right; width: 50%; color: #444444;cursor: pointer;font-size:16px;}
+div.clear{float: left; width: 20%; color: #444444;cursor: pointer;font-size:16px;padding-top: 10px;}
+div.saveplacemark{float: left;padding-left: 10px; text-align: right; width: 40%; color: #444444;cursor: pointer;font-size:16px;padding-top: 10px;}
+div.closemesmall{float: right;color: #444444;cursor: pointer;font-size:16px;}
+div#search-contact-form{width:100%; padding-left:5px; padding-right:5px; height:100%;} 
+
+
+/*flight specific css */
+div.flightreson{width:20px;position:absolute; left:10px; color:#000000;}
+
+.confirm{display: none; background-color: white; position: absolute; width: 320px; height: 116px;  z-index: 10; border:2px solid #cccccc; padding:5px; line-height: 15px; font-family: Arial,Helvetica,Verdana; font-size: 16px; color:#333333;}
+.fconfirm{display: none; position: absolute; width: 320px; height: 130px; z-index: 9;}
+
+.shadow {
+	-moz-box-shadow: 3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+
+.rounded{-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+#serchformwrapper{
+	background-color:#ffffff;
+	position: relative;
+    top: 6px;
+    -moz-box-shadow: 3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+	overflow-x: hidden;
+       padding-left: 10px;
+    padding-right: 10px;
+    height:580px;
+}
+
+
+#resultswrapper{
+	background-color:#ffffff;
+	position: relative;
+    top: 6px;
+    -moz-box-shadow: 3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+	overflow-x: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 580px;
+}
+
+.autocomplete {text-align:left;}
+
+#autoselectdiv{text-align:left;}
+
+.ui-autocomplete {
+			text-align:left;
+            max-height: 300px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            padding-right: 20px;
+			left: 19px;
+			top: 212px;
+			width: 215px;
+			font-size: 90%;
+        }
+
+.stacks{
+	width:100%; align:left; padding-left:5px; height:30px;  padding-top: 10px;
+}
+.ui-widget {font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; font-size: 0.9em;}
+#stacksresults{padding-top: 70px;}
+
+.suite_table{
+	cellpadding:2px;
+}
+
+
+.marketpie{
+    background-color:#ffffff;
+	display: none;
+    -moz-box-shadow: 3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+	position: absolute;
+	top: 104px;
+	right: 328px;
+	padding:5px;
+	line-height: 15px;
+	color:#333333;
+	height: 275px;
+	width:335px;
+	z-index: 10;
+}
+
+
+.fmarketpie{
+	display: none; 
+	position: absolute;
+	top: 100px;
+	height: 294px;
+	width: 350px;
+	z-index: 9;
+	border: 0px inset;
+}
+.suitewrapper{
+overflow-x:hidden; 
+overflow-y: hidden;
+float: left;
+}
+
+.resultcount{
+ font-size:1.2em;
+ font-weight:bold
+}
+
+.floorgrid{
+float:left;
+color: #EB4D30;
+}
+
+.floorgrid a {
+text-decoration:none;
+color: #EB4D30;
+
+}
+span#lease_size{float:right;}
+
+
+.containeremail{display: none; background-color: white; position: absolute; width: 350px; height: 400px; top: 20px; z-index: 10; border:2px solid #cccccc; padding:10px; font-family: Arial,Helvetica,Verdana; font-size: 16px; line-height: 15px; color:#333333;}
+.fcontaineremail{display: none; position: absolute; width: 374px; height: 400px;  z-index: 9;}
+
+div#mapresults{width: 90%;}
+
+.info_icon{
+	width:30px;
+	padding-left: 5px;
+    padding-right: 5px;
+    float:right;
+}
+
+.navigationShortcuts
+{
+	color: #EB4D30;
+	display: none;
+	font-size: 15px;
+	height: 313px;
+	left: 22px;
+	top:33px;
+	position: relative;   
+	width: 264px;
+		
+}
+.navigationShortcuts h2
+{
+	font-weight:bold;
+}
+.navigationShortcuts a
+{
+	color:#EB4D30;
+	text-decoration:none;
+	font-size:17px;
+}
+.tooltip {
+			color: #000000; outline: none;
+			text-decoration: none;
+			position: relative;}
+			
+.flowerDivBuildingKML  
+{
+	display: none; 
+	position: absolute;
+	top: 20px;
+	right:16px;
+	height: 294px;
+	width: 313px;
+	z-index: 9;
+	height: 90px;
+	border: 0px inset;
+}
+
+.fcontainerreport  
+{
+	display: none; 
+	position: absolute;
+	top: 40px;
+	right:16px;
+	height: 120px;
+	width: 313px;
+	z-index: 9;
+	height: 90px;
+	border: 0px inset;
+}
+
+.containerreport_collpased 
+{
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 4px #000000;
+    display: none;
+    float: right; 
+    position: absolute;
+    right: 111px;
+    z-index: 10;
+}
+.cityreport{position: relative; font-family: Helvetica,Arial,sans-serif; font-size: 20px; left: 10px; top: 0px;display:block;}
+.containerreport 
+{
+display:none;position: absolute; background-color: white; right: 6px; width: 317px; height: 115px; z-index:10;box-shadow: 3px 3px 4px #000000;float:right;
+}
+
+.lowerDivBuildingKML 
+{
+display:none;position: relative; background-color: white; right: 26px; width: 317px; height: 70px; top: 40px;z-index:10;box-shadow: 3px 3px 4px #000000;float:right;
+}
+#clearreport{
+position: absolute; 
+right: 16px; 
+top: 0px; 
+color: red; 
+cursor: pointer;
+}
